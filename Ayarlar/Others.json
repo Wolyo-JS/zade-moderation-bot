@@ -1,0 +1,19 @@
+{
+ 
+  "Colors":{
+    "positive":"228B22",
+    "negative":"FF0000",
+    "notr":"808080"
+  },
+  
+  "Emojis":{
+    "Off_Mic": "<:Zade_Mic_On:824265210822656001>",
+    "On_Mic": "824265210822656001",
+    "Off_Chat": "<:Zade_Mic_On:824265210822656001>",
+    "On_Chat": "824265210822656001",
+    "Check_Tick": "824265210863812659",
+    "Check_Tick_Two": "<:Zade_Check_Tick_Two:824668165219942442>",
+    "Red_Tick": "824265212248588329",
+    "Red_Tick_Two": "<:Zade_Red_Tick_Two:824668200192704602>"
+  }
+}

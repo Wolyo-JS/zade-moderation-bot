@@ -1,0 +1,110 @@
+{
+  "Defaults": {
+    "Tag": ".",
+    "Secondary_Tag": "!",
+    "Family_Role": "820995989543583761",
+    "Booster_Role": "820995989619605552",
+    "Booster_Limit": 2,
+    "Auto_Tag_Log": "820995992816058374 ",
+    "Main_Voice_Channel": "820995990797549591",
+    "General_Chat": "820995991054188585",
+    "Voice_Log": "820997306177290280",
+    "Commander": ["820995989598502913"],
+    "Guild_Owner": "820995989661810713",
+    "CpuanLog": "820995991054188585",
+    "Ust_Yetkili": "820995989648310272",
+    "Ozel_Commanders": [""],
+    "Authorized": [""],
+    "Talent_Distribution": "",
+
+    "Name_Age": false,
+    "Ayrac": " | ",
+    "Auto_Tag": false,
+    "Better_Moderation": false,
+    "Age_Limit": 13,
+    "Point_Limit": 100,
+    "TagliAlim": false,
+    "Emojis": {
+      "dnd": "<:Zade_Dnd:824288848691200051>",
+      "online": "<:Zade_Online:824288848942465045>",
+      "offline": "<:Zade_Offline:824288910762704937>",
+      "idle": "<:Zade_Idle:824288848837214218><"
+    }
+  },
+  "Meeting": {
+    "Role": "820995989619605549",
+    "Log": "820995990797549593"
+  },
+  "Register": {
+    "Auth_Roles": ["820995989598502912"],
+    "Channel": "820995990072459294",
+    "Limit": 2,
+    "Man": ["820995989581987846", "820995989543583758"],
+    "Woman": ["820995989581987847","820995989543583759"]
+  },
+  "Ban": {
+    "Auth_Roles": ["820995989598502916"],
+    "Log": "820995992816058370",
+    "Ban_Limit": 1,
+    "GIF": "https://cdn.discordapp.com/attachments/813361327950659585/817791306779852820/giphy_1.gif"
+  },
+  "Kick": {
+    "Auth_Roles": ["820995989598502916"],
+    "Log": "820995992816058370",
+    "Kick_Limit": 1,
+    "GIF": "https://cdn.discordapp.com/attachments/813361327950659585/817791306779852820/giphy_1.gif"
+  },
+  "Chat_Mute": {
+    "Auth_Roles": ["820995989598502917"],
+    "Role": "820995989514485798",
+    "Cmute_Limit": 1,
+    "Log": "820995992816058372"
+  },
+  "Voice_Mute": {
+    "Auth_Roles": ["820995989581987849"],
+    "Role": "820995989514485796",
+    "Vmute_Limit": 2,
+    "Log": "820997258924392458"
+  },
+  "Jail": {
+    "Auth_Roles": ["820995989598502912"],
+    "Role": "820995989514485797",
+    "Jail_Limit": 5,
+    "Log": "820995992816058371"
+  },
+  "Suspect": {
+    "Role": "820995989514485794",
+    "Log": "820995990072459295",
+    "Days": 7
+  },
+  "Warn": {
+    "Auth_Roles": ["820995989598502917"],
+    "Log": "820997796047486986",
+    "Warn_Limit": 2,
+    "Role": "820995989489844240"
+  },
+  "Transport": {
+    "Auth_Roles": ["820995989598502915"],
+    "Log": "820997141975531536"
+  },
+  "Welcome": {
+    "Unregistered": ["820995989514485795"],
+    "GIF": "https://cdn.discordapp.com/attachments/720770210344468520/759914531748577280/ezgif.com-crop.gif",
+    "Log": "820995990072459295",
+    "Emojis": ["✅", "❌"]
+  },
+  "Guard_Logs": {
+    "Role": "820995992816058375"
+  },
+
+  "OzelKomutlar": {
+    "Partner": "759085721242828835",
+    "VIP": "820995989648310273",
+    "Musician": "759085721252003876",
+    "Designer": "759085721260261426",
+    "Painter": "759085721252003879",
+    "Vocalist": "759085721252003875",
+    "Streamer": "759085721260261429",
+    "Pianist": ""
+  }
+}
