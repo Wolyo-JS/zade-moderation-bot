@@ -185,4 +185,4 @@ global.perms = {
   MANAGE_ROLES: 'ROLLERİ_YÖNET'
 }
 
-client.login(global.Ayarlar.Token).catch(() => { console.error("Geçersiz bir token girmişsin.")});
+client.login(process.env.token).catch(() => { console.error("Geçersiz bir token girmişsin.")});
