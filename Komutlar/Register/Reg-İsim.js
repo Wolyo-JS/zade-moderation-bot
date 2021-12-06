@@ -93,8 +93,8 @@ rolü ve üstlerine ulaşabilirsiniz.
     .setFooter(`Üyenin ceza puanı ${pData.point ?? 0}`)
     .setDescription(
 `${member.toString()} kişisinin adı başarıyla "${nick} | ${age}" olarak değiştirildi. Bu üye daha önce şu isimlerle kayıt olmuş:\n\n` +
-`<a:kirmizitik:809041906990448670> Kişinin Toplamda ${registerModel?.userNames?.length ?? 0} isim kayıtı bulundu.\n` +
- (registerModel?.userNames?.map(x => `\`• ${x.nick}\` (${x.type.replace(`Erkek`, `<@&${global.Perm.Register.Man[0]}>`).replace(`Kız`, `<@&${global.Perm.Register.Woman[0]}>`)})`).join("\n ") || "Daha önce kayıt olmamış.") + "\n\n" +
+`Kişinin Toplamda ${registerModel.userNames.length ?? 0} isim kayıtı bulundu.\n` +
+ (registerModel.userNames.map(x => `\`• ${x.nick}\` (${x.type.replace(`Erkek`, `<@&${global.Perm.Register.Man[0]}>`).replace(`Kız`, `<@&${global.Perm.Register.Woman[0]}>`)})`).join("\n ") || "Daha önce kayıt olmamış.") + "\n\n" +
 `Kişinin önceki isimlerine \`${Ayarlar.Prefix}isimler @üye\` komutuyla bakarak kayıt işlemini gerçekleştirmeniz önerilir.` 
 );
 
